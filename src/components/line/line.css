@@ -1,0 +1,11 @@
+hr{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left:auto;
+    border: 1px solid var(--color-dark-blue);
+
+    max-width: 75%;
+
+    
+  }

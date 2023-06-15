@@ -1,0 +1,23 @@
+.page-title{
+    background-image: url('./../../assets/gray-bg-strip-compact.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 170px;
+    width: 100%;
+    background-position:  center;
+
+    margin-left: 0px;
+
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 75px;
+    margin-top: var(--div-spacer);
+}
+
+.page-title h1{
+    font-size: 3rem;
+}

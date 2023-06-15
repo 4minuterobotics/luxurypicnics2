@@ -1,0 +1,18 @@
+.bundle-summary{
+    /* display: flex; */
+    color: var(--color-dark-blue);
+}
+
+.bundle-summary-title{
+    font-size: 3rem;
+}
+
+.bundle-summary-description{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.bundle-summary-book{
+    padding-top: 50px;
+}

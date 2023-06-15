@@ -1,0 +1,44 @@
+
+.mapped-add-ons-flexed-card{
+    /* background-image: url('./../../assets/navbar-logo.png'); */
+
+ 
+       /* padding: 50px 70px 50px 70px; */
+    /* top right bottom left */
+    /* padding-top: 70px;
+    padding-bottom: 70px; */
+    padding-left:0;
+    padding-right:0;
+
+    /* background-position:  center;
+    background-size: cover; */
+    width: 48.1%;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+
+    cursor: pointer;
+}
+
+.add-on-modal{
+    color: var(--color-dark-blue);
+    margin-top: 20px;
+}
+
+.add-on-modal-body p{   
+    padding-top: 40px;
+    text-align: center;
+}
+
+@media screen and (min-width: 834px) {
+    .mapped-add-ons-flexed-card {
+        width: 32%;
+    }
+  }
+@media screen and (min-width: 1104px) {
+    .mapped-add-ons-flexed-card {
+        width: 24%;
+    }
+  }
+

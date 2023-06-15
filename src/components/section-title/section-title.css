@@ -1,0 +1,18 @@
+.section-title{
+    background-image: url('./../../assets/section-title-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 140px;
+    width: 90%;
+    background-position:  center;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: var(--div-spacer);
+    margin-top: var(--div-spacer);
+    margin-left: auto;
+    margin-right: auto;
+}

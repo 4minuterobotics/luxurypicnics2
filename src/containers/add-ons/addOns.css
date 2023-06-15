@@ -1,0 +1,33 @@
+.add-ons-section{
+    margin-top: 80px;
+}
+
+
+.add-ons-flexed-container{
+    
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: var(--color-dark-blue);
+    margin-top: 30px;
+}   
+
+.add-ons-flexed-card{
+    background-image: url('./../../assets/navbar-logo.png');
+
+ 
+       /* padding: 50px 70px 50px 70px; */
+    /* top right bottom left */
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left:0;
+    padding-right:0;
+
+    background-position:  center;
+    background-size: cover;
+    width: 186px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}

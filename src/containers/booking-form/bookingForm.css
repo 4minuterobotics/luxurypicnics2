@@ -1,0 +1,8 @@
+.booking-form{
+    color: var(--color-dark-blue);
+  }
+  
+  .recaptcha{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }

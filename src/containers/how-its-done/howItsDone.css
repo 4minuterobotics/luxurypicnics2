@@ -1,0 +1,72 @@
+.how-its-done{
+    margin-top: var(--div-spacer);
+    margin-bottom: var(--div-spacer);
+}
+
+.number{
+    padding-top: var(--div-spacer);
+    padding-bottom: var(--div-spacer);
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+}
+
+
+.flexed-container{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: var(--color-dark-blue);
+}
+.flexed-card{
+    display:flex;
+    flex-direction: column;
+
+    width: 270px;
+}
+.flexed-card-title{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.7rem;
+    white-space: nowrap;
+
+}
+
+.flexed-card-body{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    font-size: medium;
+    letter-spacing: 1px;
+}
+
+
+
+
+/* .card{
+    background-color: var(--color-bg);
+    --bs-card-border-color: transparent;
+
+}
+.card-text{
+    color: var(--color-dark-blue);
+    border: blue;
+}
+
+.card-title{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: xx-large;
+}
+
+.card-body{
+    font-size: large;
+}
+
+.p .card-body{
+}
+
+.card-text:last-child {
+    margin-bottom: 50px;
+    padding-bottom: 70px; 
+} */

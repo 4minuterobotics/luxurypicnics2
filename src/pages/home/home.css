@@ -1,0 +1,4 @@
+body .add-margin{
+    padding-left: var(--center-body);
+    padding-right: var(--center-body);
+  }

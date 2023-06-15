@@ -1,0 +1,8 @@
+body .add-margin-regular-page{
+  padding-left: var(--center-body);
+  padding-right: var(--center-body);
+  padding-top: 190px;
+}
+
+
+

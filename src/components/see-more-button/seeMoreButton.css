@@ -1,0 +1,19 @@
+.content button {
+    color: var(--color-dark-txt);
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: var(--div-spacer);
+    margin-bottom: var(--div-spacer);
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+  }
+  .content button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+  }
+  .content button:hover svg {
+    margin-left: 25px;
+  }
