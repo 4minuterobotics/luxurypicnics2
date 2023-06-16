@@ -13,6 +13,7 @@ import { Footer } from './containers';
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
+//Imports for lazy loading pages
 const LazyHome = React.lazy(()=> import ('./pages/home/Home'))
 const LazyPicnics = React.lazy(()=> import ('./pages/picnics/Picnics'))
 const LazyParties = React.lazy(()=> import ('./pages/parties/Parties'))

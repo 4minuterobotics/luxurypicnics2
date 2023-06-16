@@ -9,7 +9,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
     padding: 10px 0;
-    background-color: var(--color-bg);
+    background-color: white;
 }
 
 /* nav.navbar a.navbar-brand {
@@ -166,7 +166,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 
-
-
-
+@media screen and (max-width: 767px) {
+    nav.navbar{
+        background-color: white;
+    }
+  }
 
