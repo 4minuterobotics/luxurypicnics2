@@ -10,3 +10,4 @@ export { default as Line} from './line/Line';
 export { default as MyModal} from './my-modal/MyModal';
 export { default as PageAnimation1} from './page-animations/PageAnimation1';
 export { default as PageLoadingScreen} from './page-loading-screen/PageLoadingScreen';
+export { default as ScrollToTop} from './scroll-to-top/ScrollToTop';

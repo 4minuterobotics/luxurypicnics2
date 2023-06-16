@@ -4,7 +4,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { navbarContext } from './contexts/navbarContext';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { NavBar, PageLoadingScreen } from './components';
+import { NavBar, PageLoadingScreen, ScrollToTop } from './components';
 import { Footer } from './containers';
 
 // USING LAZY LOADING INSTEAD!!
@@ -29,6 +29,7 @@ function App() {
       <div className="App">
       <navbarContext.Provider value={({activeLink, setActiveLink})}>
         <ToastContainer position ="bottom-center" limit={1}/>
+        <ScrollToTop/>
         <NavBar/>      
         {/* <AnimatePresence mode="wait"> */}
           <Routes key={location.pathname} location={location}>
