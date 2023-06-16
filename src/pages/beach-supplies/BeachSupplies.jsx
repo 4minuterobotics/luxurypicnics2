@@ -5,14 +5,15 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import { SlideShow, BundleSummary,Line, PageTitle } from '../../components';
+import { SlideShow, BundleSummary,Line, PageTitle, PageAnimation1 } from '../../components';
 import { AddOns } from '../../containers';
 
 import { beachSupplies } from '../../objects';
 
 const BeachSupplies = () => {
   return (
-    <div className="add-margin-regular-page">
+    <PageAnimation1>
+        <div className="add-margin-regular-page">
             <PageTitle
                 text="Beach Supplies"
             />
@@ -73,6 +74,8 @@ const BeachSupplies = () => {
             <Line/>
             <AddOns/>
         </div>
+    </PageAnimation1>
+
   )
 }
 

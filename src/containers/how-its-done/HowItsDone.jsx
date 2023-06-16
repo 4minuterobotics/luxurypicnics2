@@ -1,5 +1,4 @@
 import React from 'react'
-// import { Container, Row, Col, Card } from "react-bootstrap";
 import './howItsDone.css';
 import { SectionTitle } from '../../components';
 import {number1, number2, number3} from '../../assets';

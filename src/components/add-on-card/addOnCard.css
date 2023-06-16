@@ -23,12 +23,18 @@
 
 .add-on-modal{
     color: var(--color-dark-blue);
-    margin-top: 20px;
+    margin-top: 0px;
+    z-index: 10000 !important;
+}
+
+.modal-dialog{
+    min-height: 0;
 }
 
 .add-on-modal-body p{   
-    padding-top: 40px;
+    /* padding-top: 40px; */
     text-align: center;
+    
 }
 
 @media screen and (min-width: 834px) {

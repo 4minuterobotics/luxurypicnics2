@@ -1,18 +1,16 @@
 import React from 'react'
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import './navbar.css';
-
 import { navbarLinks } from '../../objects';
-
 import navLogo from '../../assets/navbar-logo.png'
-
 import { Link } from "react-router-dom";
+import { navbarContext } from '../../contexts/navbarContext';
 
 const NavBar = () => {
 
+    const { activeLink, setActiveLink } = useContext(navbarContext);
     
-    const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
 
 

@@ -1,20 +1,22 @@
 import React from 'react'
 import './book.css'
 
-import { PageTitle } from '../../components'
+import { PageTitle, PageAnimation1 } from '../../components'
 import { BookingForm } from '../../containers'
 
 
 
 const Book = () => {
   return (
-    <div className="add-margin-regular-page">
-      <PageTitle
-        text="Book Now"
-      />
-      {/* <HowItsDone/> */}
-      <BookingForm/>
-    </div>
+    <PageAnimation1>
+      <div className="add-margin-regular-page">
+        <PageTitle
+          text="Book Now"
+        />
+        {/* <HowItsDone/> */}
+        <BookingForm/>
+      </div>
+    </PageAnimation1>
   )
 }
 

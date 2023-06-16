@@ -1,12 +1,13 @@
 import React from 'react'
 import { Header, Banner, HowItsDone, PhotoGrid } from '../../containers'
-import { Line } from '../../components';
+import { Line, PageAnimation1 } from '../../components';
 import './home.css';
 
 
 const Home = () => {
   return (
-    <div>
+    <PageAnimation1>
+      <div>
       <Header/>
       <div className="add-margin">
         <Banner/>
@@ -16,6 +17,8 @@ const Home = () => {
         <HowItsDone/>
       </div>
     </div>
+    </PageAnimation1>
+    
   )
 }
 

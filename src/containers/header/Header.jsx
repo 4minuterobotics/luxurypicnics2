@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css';
-import { logoCloudBg, redLuxuryText, maroonLuxuryText } from '../../assets';
+import { logoCloudBg } from '../../assets';
 import { BookNow } from '../../components';
 
 

@@ -5,14 +5,15 @@ import Col from 'react-bootstrap/Col';
 
 import './parties.css'
 
-import { SlideShow, BundleSummary, Line, PageTitle } from '../../components';
+import { SlideShow, BundleSummary, Line, PageTitle, PageAnimation1 } from '../../components';
 import { AddOns } from '../../containers';
 
 import { luxuryParties } from '../../objects';
 
 const Parties = () => {
   return (
-    <div className="add-margin-regular-page">
+    <PageAnimation1>
+        <div className="add-margin-regular-page">
             <PageTitle
                 text="Party Styles"
             />
@@ -54,6 +55,7 @@ const Parties = () => {
             <Line/>
             <AddOns/>
         </div>
+    </PageAnimation1>
   )
 }
 

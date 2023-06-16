@@ -20,7 +20,8 @@ function MyVerticallyCenteredModal(props) {
 
         <Modal.Body className="add-on-modal-body">
             <img src={props.image}/>
-            <p> {props.description} </p>  
+            <p> {props.description} </p>
+            <p> {`$${props.price}`}</p>  
         </Modal.Body>
 
         <Modal.Footer className="add-on-modal-footer">
@@ -47,6 +48,7 @@ const AddOnCard = (props) => {
             name={props.name}
             image={props.image}
             description={props.description}
+            price={props.price}
             />
         </>
     )

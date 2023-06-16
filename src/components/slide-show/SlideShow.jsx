@@ -2,7 +2,6 @@ import React from 'react'
 import './slideShow.css'
 
 import Carousel from 'react-bootstrap/Carousel';
-// import { banner, preview } from '../../assets';
 
 
 const SlideShow = (props) => {
