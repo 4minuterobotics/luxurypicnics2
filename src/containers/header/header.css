@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 180px;
+    margin-top: 170px;
     padding: 50px 0 50px 0;/* top right bottom left */
     background-image: url('./../../assets/banner.jpeg');
     background-position:  center;
@@ -20,3 +20,14 @@
 
 
 
+  @media screen and (max-width: 1199px) {
+    .header{
+        margin-top: 155px;
+    }
+  }
+  
+  @media screen and (max-width: 991px) {
+    .header{
+        margin-top: 104px;
+    }
+  }

@@ -5,9 +5,10 @@ nav.navbar {
     top: 0;
     z-index: 9999;
     transition:  0.32s ease-in-out;
+    --bs-navbar-color: rgba(0, 0, 0, 0, 1);
 }
 nav.navbar.scrolled {
-    padding: 0px 0;
+    padding: 10px 0;
     background-color: var(--color-bg);
 }
 
@@ -37,6 +38,10 @@ nav.navbar .nav-logo {
     text-decoration: none;
 
     white-space: nowrap;
+}
+
+nav:hover{
+    background-color: rgba(255,255,255,1) !important;
 }
 
 .nav-links:hover,

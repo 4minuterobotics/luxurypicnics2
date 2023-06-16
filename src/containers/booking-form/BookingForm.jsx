@@ -226,7 +226,7 @@ const BookingForm = () => {
                             <option>Choose...</option>
                             {luxuryPicnics.picnicPacks.map((pack)=>{
                             return(
-                                <option key={pack.id} value={pack.name} >{pack.name}</option>
+                                <option key={pack.id} value={pack.name} >{`${pack.name} - $${pack.price}`}</option>
                             )                 
                             })}
                         </Form.Select>
@@ -238,7 +238,7 @@ const BookingForm = () => {
                             <option>Choose...</option>
                             {luxuryParties.partyPacks.map((pack)=>{
                             return(
-                                <option key={pack.id} value={pack.name} >{pack.name}</option>
+                                <option key={pack.id} value={pack.name} >{`${pack.name} - $${pack.price}`}</option>
                             )                 
                             })}
                         </Form.Select>
@@ -250,7 +250,7 @@ const BookingForm = () => {
                             <option>Choose...</option>
                             {beachSupplies.beachPacks.map((pack)=>{
                             return(
-                                <option key={pack.id} value={pack.name} >{pack.name}</option>
+                                <option key={pack.id} value={pack.name} >{`${pack.name} - $${pack.price}`}</option>
                             )                 
                             })}
                         </Form.Select>
@@ -270,7 +270,7 @@ const BookingForm = () => {
                                 key={item.id}
                                 type="checkbox"
                                 value={item.name}
-                                label={item.name}
+                                label={`${item.name} - $${item.price}`}
                                 name={`addOn${item.id}`}
                                 id={`addOn${item.id}`}
                                 onChange={handleChange}

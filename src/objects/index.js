@@ -40,11 +40,13 @@ export const luxuryPicnics= {
     picnicPacks:[
         {
             id: 1,
-            name: "First Base"
+            name: "First Base",
+            price: 4000,
         },
         {
             id: 2,
-            name: "Happy Ending"
+            name: "Happy Ending",
+            price: 4000,
         },
     ],
     setupOne: {
@@ -130,11 +132,13 @@ export const luxuryParties= {
     partyPacks:[
         {
             id: 1,
-            name: "Bouncy House"
+            name: "Bouncy House",
+            price: 4000,
         },
         {
             id: 2,
-            name: "Luxury Play Area"
+            name: "Luxury Play Area",
+            price: 4000,
         },
     ],
     setupOne:{
@@ -218,15 +222,18 @@ export const beachSupplies= {
     beachPacks:[
         {   
             id: 1,
-            name: "Small Pack"
+            name: "Small Pack",
+            price: 4000,
         },
         {
             id: 2,
-            name: "Medium Pack"
+            name: "Medium Pack",
+            price: 4000,
         },
         {
             id: 3,
-            name: "Large Pack"
+            name: "Large Pack",
+            price: 4000,
         },
     ],
     setupOne:{
