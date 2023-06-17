@@ -4,7 +4,7 @@ import './pageTitle.css';
 const PageTitle = (props) => {
   return (
     <>
-      <div className= "page-title">
+      <div className= "page-title gradient__text">
         <h1>{props.text}</h1>
       </div>
     </> 

@@ -5,7 +5,7 @@
   --font-family: 'Manrope', sans-serif;
   --fancy-font-family: 'Caveat', cursive;
 
-  --gradient-text: linear-gradient(89.97deg, #30BECC 1.84%, #36A8DA 102.67%);
+  --gradient-text: linear-gradient(45deg, #30BECC 33%, #50205C, #36A8DA );
   --gradient-bar: linear-gradient(103.22deg, #36A8DA -13.86%, lightgray 99.55%);
 
   
@@ -25,6 +25,6 @@
   --color-instagram: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
 
 
-  --center-body: 15%;
+  --center-body: 5%;
   --div-spacer: 2.5%;
 }
