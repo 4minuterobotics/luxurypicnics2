@@ -1,4 +1,11 @@
-.photo-grid img{
-    object-fit: cover;
-    height:100%
+.photo-grid img {
+	object-fit: cover;
+	height: 100%;
+}
+
+.photogrid-photos {
+	padding-right: calc(var(--bs-gutter-x) * 0.1);
+	padding-left: calc(var(--bs-gutter-x) * 0.1);
+	padding-top: calc(var(--bs-gutter-x) * 0.1);
+	padding-bottom: calc(var(--bs-gutter-x) * 0.1);
 }
