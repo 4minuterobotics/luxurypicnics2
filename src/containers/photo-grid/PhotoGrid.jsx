@@ -23,20 +23,23 @@ const PhotoGrid = () => {
 	return (
 		<Container className='photo-grid'>
 			{/* Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop */}
-			<Row className='photogrid-photos'>
+			<Row>
 				<Col
+					className='photo-grid-div'
 					xs={8}
 					md={4}
 				>
 					<img src={romantic1} />
 				</Col>
 				<Col
+					className='photo-grid-div'
 					xs={4}
 					md={4}
 				>
 					<img src={romantic2} />
 				</Col>
 				<Col
+					className='photo-grid-div'
 					xs={5}
 					md={4}
 				>
@@ -44,18 +47,21 @@ const PhotoGrid = () => {
 				</Col>
 
 				<Col
+					className='photo-grid-div'
 					xs={7}
 					md={4}
 				>
 					<img src={romantic4} />
 				</Col>
 				<Col
+					className='photo-grid-div'
 					xs={12}
 					md={4}
 				>
 					<img src={romantic5} />
 				</Col>
 				<Col
+					className='photo-grid-div'
 					xs={5}
 					md={4}
 				>
@@ -63,18 +69,21 @@ const PhotoGrid = () => {
 				</Col>
 
 				<Col
+					className='photo-grid-div'
 					xs={7}
 					md={4}
 				>
 					<img src={romantic7} />
 				</Col>
 				<Col
+					className='photo-grid-div'
 					xs={8}
 					md={4}
 				>
 					<img src={romantic9} />
 				</Col>
 				<Col
+					className='photo-grid-div'
 					xs={4}
 					md={4}
 				>

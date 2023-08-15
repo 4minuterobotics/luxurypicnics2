@@ -3,7 +3,7 @@
 	height: 100%;
 }
 
-.photogrid-photos {
+.photo-grid-div {
 	padding-right: calc(var(--bs-gutter-x) * 0.1);
 	padding-left: calc(var(--bs-gutter-x) * 0.1);
 	padding-top: calc(var(--bs-gutter-x) * 0.1);
