@@ -1,12 +1,13 @@
-
-
-.slideShow{
-    /* padding-top: 30px; */
-    padding-bottom: 30px;
+.slideShow {
+	/* padding-top: 30px; */
+	padding-bottom: 30px;
+	.carousel-inner {
+		padding-bottom: 15px;
+	}
 }
 
 .slide-show-image {
-    padding-left: 55px;
-    padding-right: 55px;
-    padding-bottom: 35px;
+	padding-left: 55px;
+	padding-right: 55px;
+	padding-bottom: 35px;
 }

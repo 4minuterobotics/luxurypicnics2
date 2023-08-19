@@ -126,12 +126,10 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 	.nav-links {
 		padding-top: 20px;
 		padding-bottom: 20px;
+		text-align: center;
 	}
 	.ms-auto {
 		margin-left: 0 !important;
-	}
-	.nav-links {
-		text-align: center;
 	}
 }
 
