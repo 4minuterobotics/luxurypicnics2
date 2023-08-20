@@ -12,6 +12,9 @@ import {
 	romantic8,
 	romantic9,
 	romantic10,
+	navIcons1,
+	navIcons2,
+	navIcons3,
 } from '../assets';
 
 export const navbarLinks = [
@@ -42,6 +45,21 @@ export const navbarLinks = [
 		id: 5,
 		hyperlink: 'book',
 		title: 'Book',
+	},
+];
+
+export const socialLinks = [
+	{
+		name: 'facebook',
+		id: 1,
+		hyperlink: 'https://www.facebook.com/',
+		image: navIcons2,
+	},
+	{
+		name: 'instagram',
+		id: 1,
+		hyperlink: 'https://www.instagram.com/luxurypicnicrentals/',
+		image: navIcons3,
 	},
 ];
 
