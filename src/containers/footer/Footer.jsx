@@ -38,7 +38,7 @@ const Footer = () => {
 									<div className='social-icons '>
 										{/* <a href="https://linkedin.com/in/william-lawrence-196511156/"><img src={navIcon1} alt="" /></a>
                                         <a href="#"><img src={navIcon2} alt="" /></a> */}
-										<a className='instagram' href={socialLinks[0].hyperlink}>
+										<a className='instagram' href={socialLinks[1].hyperlink}>
 											<img src={socialLinks[1].image} alt='' />
 										</a>
 									</div>
