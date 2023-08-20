@@ -1,29 +1,30 @@
-.page-title{
-    /* background-image: url('./../../assets/gray-bg-strip-compact.png');
+.page-title {
+	/* background-image: url('./../../assets/gray-bg-strip-compact.png');
     background-repeat: no-repeat;
     background-size: contain; */
-    height: 170px;
-    width: 100%;
-    /* background-position:  center; */
+	height: 170px;
+	width: 100%;
+	/* background-position:  center; */
 
-    margin-left: 0px;
+	margin-left: 0px;
 
-    white-space: nowrap;
+	white-space: nowrap;
 
-    
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin-bottom: 75px;
-    margin-top: var(--div-spacer);
+	margin-bottom: 75px;
+	margin-top: var(--div-spacer);
 }
 
-.page-title h1{
-    font-size: 3rem;
+.page-title h1 {
+	font-size: 3rem;
 }
 
+.fancy-font {
+	font-size: 70px !important;
+}
 /* .gradient__text {
     background: var(--gradient-text);
     background-clip: text;
