@@ -5,7 +5,7 @@ const PageTitle = (props) => {
 	return (
 		<>
 			<div className='page-title gradient__text'>
-				<h1 className='fancy-font'>{props.text}</h1>
+				<h1 className={`fancy-font ${props.titleSize}`}>{props.text}</h1>
 			</div>
 		</>
 	);

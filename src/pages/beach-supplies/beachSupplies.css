@@ -1,9 +1,9 @@
-body .add-margin-regular-page{
-    padding-left: var(--center-body);
-    padding-right: var(--center-body);
-    padding-top: 190px;
-  }
+body .add-margin-regular-page {
+	padding-left: var(--center-body);
+	padding-right: var(--center-body);
+	padding-top: 190px;
+}
 
-  hr{
-    border: 1px solid var(--color-dark-blue);
-  }
+hr {
+	border: 1px solid var(--color-dark-blue);
+}

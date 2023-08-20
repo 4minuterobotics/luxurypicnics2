@@ -22,8 +22,12 @@
 	font-size: 3rem;
 }
 
-.fancy-font {
-	font-size: 70px !important;
+.page-title .fancy-font {
+	font-size: 65px;
+}
+
+.long-title {
+	font-size: 60px !important;
 }
 /* .gradient__text {
     background: var(--gradient-text);

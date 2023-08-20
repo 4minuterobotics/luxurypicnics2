@@ -1,82 +1,73 @@
-import React from 'react'
-import './beachSupplies.css'
+import React from 'react';
+import './beachSupplies.css';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import { SlideShow, BundleSummary,Line, PageTitle, PageAnimation1 } from '../../components';
+import { SlideShow, BundleSummary, Line, PageTitle, PageAnimation1 } from '../../components';
 import { AddOns } from '../../containers';
 
 import { beachSupplies } from '../../objects';
 
 const BeachSupplies = () => {
-  return (
-    <PageAnimation1>
-        <div className="add-margin-regular-page">
-            <PageTitle
-                text="Beach Supplies"
-            />
-            <Container>
-                {/* Stack the columns on mobile by making one full-width and the other half-width */}
-                <Row>
-                    <Col xs={12} md={6}>
-                        <SlideShow
-                            slideShowData={beachSupplies.setupOne.slideImages}
-                        />
-                    </Col>
-                    <Col xs={12} md={6}>
-                        <BundleSummary
-                            title={beachSupplies.setupOne.name}
-                            description={beachSupplies.setupOne.description}
-                            details={beachSupplies.setupOne.details}
-                        />
-                    </Col>
-                </Row>
-            </Container>
-            <Line/>
-            <Container>
-                {/* Stack the columns on mobile by making one full-width and the other half-width */}
-                <Row>
-                    <Col xs={12} md={6}>
-                        <SlideShow
-                            slideShowData={beachSupplies.setupTwo.slideImages}
-                        />
-                    </Col>
-                    <Col xs={12} md={6}>
-                        <BundleSummary
-                            title={beachSupplies.setupTwo.name}
-                            description={beachSupplies.setupTwo.description}
-                            details={beachSupplies.setupTwo.details}
-                        />
-                    </Col>
-                </Row>
-            </Container>
-            <Line/>
+	return (
+		<PageAnimation1>
+			<div className='add-margin-regular-page'>
+				<PageTitle text='Beach Supply' titleSize='long-title' />
+				<Container>
+					{/* Stack the columns on mobile by making one full-width and the other half-width */}
+					<Row>
+						<Col xs={12} md={6}>
+							<SlideShow slideShowData={beachSupplies.setupOne.slideImages} />
+						</Col>
+						<Col xs={12} md={6}>
+							<BundleSummary
+								title={beachSupplies.setupOne.name}
+								description={beachSupplies.setupOne.description}
+								details={beachSupplies.setupOne.details}
+							/>
+						</Col>
+					</Row>
+				</Container>
+				<Line />
+				<Container>
+					{/* Stack the columns on mobile by making one full-width and the other half-width */}
+					<Row>
+						<Col xs={12} md={6}>
+							<SlideShow slideShowData={beachSupplies.setupTwo.slideImages} />
+						</Col>
+						<Col xs={12} md={6}>
+							<BundleSummary
+								title={beachSupplies.setupTwo.name}
+								description={beachSupplies.setupTwo.description}
+								details={beachSupplies.setupTwo.details}
+							/>
+						</Col>
+					</Row>
+				</Container>
+				<Line />
 
-            <Container>
-                {/* Stack the columns on mobile by making one full-width and the other half-width */}
-                <Row>
-                    <Col xs={12} md={6}>
-                        <SlideShow
-                            slideShowData={beachSupplies.setupThree.slideImages}
-                        />
-                    </Col>
-                    <Col xs={12} md={6}>
-                        <BundleSummary
-                            title={beachSupplies.setupThree.name}
-                            description={beachSupplies.setupThree.description}
-                            details={beachSupplies.setupThree.details}
-                        />
-                    </Col>
-                </Row>
-            </Container>
-            <Line/>
-            <AddOns/>
-        </div>
-    </PageAnimation1>
+				<Container>
+					{/* Stack the columns on mobile by making one full-width and the other half-width */}
+					<Row>
+						<Col xs={12} md={6}>
+							<SlideShow slideShowData={beachSupplies.setupThree.slideImages} />
+						</Col>
+						<Col xs={12} md={6}>
+							<BundleSummary
+								title={beachSupplies.setupThree.name}
+								description={beachSupplies.setupThree.description}
+								details={beachSupplies.setupThree.details}
+							/>
+						</Col>
+					</Row>
+				</Container>
+				<Line />
+				<AddOns />
+			</div>
+		</PageAnimation1>
+	);
+};
 
-  )
-}
-
-export default BeachSupplies
+export default BeachSupplies;
