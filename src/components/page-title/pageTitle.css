@@ -26,8 +26,8 @@
 	font-size: 65px;
 }
 
-.long-title {
-	font-size: 60px !important;
+.page-title .long-title {
+	font-size: 60px;
 }
 /* .gradient__text {
     background: var(--gradient-text);
