@@ -12,7 +12,7 @@ import {
 	romantic8,
 	romantic9,
 	romantic10,
-	navIcons1,
+	// navIcons1,
 	navIcons2,
 	navIcons3,
 } from '../assets';
@@ -79,7 +79,7 @@ export const luxuryPicnics = {
 	setupOne: {
 		id: 1,
 		name: 'Romantic',
-		description: 'Comes with a table, chairs, and a guaranteed kiss for u virgins',
+		description: 'Comes with a table, chairs, and a guaranteed kiss for your love birds.',
 		price: 4000,
 		image: romantic8,
 		alt: 'Luxury Picnic Setup',
@@ -122,7 +122,7 @@ export const luxuryPicnics = {
 	setupTwo: {
 		id: 2,
 		name: 'Birthday',
-		description: 'U Definitely getting some butt after this',
+		description: "You're Definitely getting lucky after this.",
 		price: 4000,
 		image: romantic10,
 		alt: 'Luxury Picnic Setup',
@@ -176,7 +176,7 @@ export const luxuryPicnics = {
 			},
 			{
 				id: 3,
-				items: 'some ass',
+				items: 'some love',
 				color: 'orange-text-gradient',
 			},
 		],
@@ -199,7 +199,7 @@ export const luxuryParties = {
 	setupOne: {
 		id: 1,
 		name: 'Bouncy House',
-		description: 'Comes with a luxuy bouncy house with one side open for you bougie mfs',
+		description: 'Comes with a luxuy bouncy house with one side open for you classy people.',
 		price: 4000,
 		image: navbarLogo,
 		alt: 'Luxury Party Setup',
@@ -228,7 +228,7 @@ export const luxuryParties = {
 			},
 			{
 				id: 3,
-				items: 'dis dick',
+				items: 'a love pack',
 				color: 'orange-text-gradient',
 			},
 		],
@@ -256,12 +256,12 @@ export const luxuryParties = {
 		details: [
 			{
 				id: 1,
-				items: 'A bougie bounce house',
+				items: 'A classy bounce house',
 				color: 'blue-text-gradient',
 			},
 			{
 				id: 2,
-				items: 'BIG ass ball pit',
+				items: 'HUUUUGE ball pit',
 				color: 'green-text-gradient',
 			},
 			{
@@ -426,42 +426,42 @@ export const addOns = [
 		id: '1',
 		name: 'Charcuterie',
 		image: banner,
-		description: 'maaaaan jo basically mfs be cutting up meat n shit and putting it together',
+		description: 'Classy people love their micro meats and crackers',
 		price: 4000,
 	},
 	{
 		id: '2',
 		name: 'Cooler + Refeshments',
 		image: banner,
-		description: "basically we'll fill a cooler with ice n shit if you want",
+		description: "We'll fill a cooler with all the sweets you want",
 		price: 4000,
 	},
 	{
 		id: '3',
 		name: 'Marry me sign',
 		image: banner,
-		description: 'will you marry me mf?',
+		description: 'will you marry me?',
 		price: 4000,
 	},
 	{
 		id: '4',
 		name: 'Fan',
 		image: banner,
-		description: "It's hot as hell outside. Cool me down daddy",
+		description: "It's hot as heck outside. Cool me down daddy",
 		price: 4000,
 	},
 	{
 		id: '5',
 		name: 'Speaker',
 		image: banner,
-		description: 'Turn that mf music up!',
+		description: 'Turn that music up!',
 		price: 4000,
 	},
 	{
 		id: '6',
 		name: 'Marry me sign',
 		image: banner,
-		description: 'will you marry me mf?',
+		description: 'will you marry me?',
 		price: 4000,
 	},
 	{
@@ -475,21 +475,21 @@ export const addOns = [
 		id: '8',
 		name: 'Ball pit',
 		image: banner,
-		description: 'Kids like bouncing around in this shit',
+		description: 'Kids like bouncing around in this.',
 		price: 4000,
 	},
 	{
 		id: '9',
 		name: 'Balloons',
 		image: banner,
-		description: 'OOO this fancy as hell fam!',
+		description: 'WOW this fancy as heck fam!',
 		price: 4000,
 	},
 	{
 		id: '10',
 		name: 'Photo backdrop',
 		image: banner,
-		description: 'Niggas really doin they thing out here!',
+		description: 'People really doin their thing out here!',
 		price: 4000,
 	},
 	{

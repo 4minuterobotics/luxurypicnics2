@@ -29,11 +29,17 @@ function App() {
 		<>
 			<div className='App'>
 				<navbarContext.Provider value={{ activeLink, setActiveLink }}>
-					<ToastContainer position='bottom-center' limit={1} />
+					<ToastContainer
+						position='bottom-center'
+						limit={1}
+					/>
 					<ScrollToTop />
 					<NavBar />
 					{/* <AnimatePresence mode="wait"> */}
-					<Routes key={location.pathname} location={location}>
+					<Routes
+						key={location.pathname}
+						location={location}
+					>
 						{/* lazy loading routhing method */}
 						<Route
 							path='/'
