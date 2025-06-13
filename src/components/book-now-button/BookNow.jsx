@@ -10,10 +10,7 @@ const BookNow = () => {
 
 	return (
 		<div className='book-now'>
-			<Link
-				to='/book'
-				onClick={() => setActiveLink('book')}
-			>
+			<Link to='/book' onClick={() => setActiveLink('book')}>
 				<button>
 					<span>Book Now</span>
 				</button>
